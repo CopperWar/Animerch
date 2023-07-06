@@ -1,0 +1,204 @@
+html {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+
+body {
+  background-image: url("/sem_5_project/images/2_back.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.black-rectangle {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(115deg, rgba(255, 192, 247, 0.5) 50%, rgba(0, 255, 200, 0.5) 50%);
+  z-index: -1;
+}
+
+.image {
+  position: absolute;
+  height: 900px;
+  width: auto;
+  left: 650px;
+  top: 50px;
+  user-select: none;
+  z-index: 2;
+  animation-delay: 0s;
+}
+
+h1 {
+  position: absolute;
+  top: 200px;
+  left: 100px;
+  font-size: 30px;
+  user-select: none;
+  animation-delay: 0.6s;
+}
+
+h2 {
+  position: absolute;
+  top: 230px;
+  left: 100px;
+  font-size: 40px;
+  user-select: none;
+  animation-delay: 0.6s;
+}
+
+p {
+  position: absolute;
+  top: 310px;
+  left: 105px;
+  font-size: 20px;
+  user-select: none;
+  animation-delay: 0.6s;
+}
+
+.text_2 {
+  margin-top: 200px;
+  margin-left: 70px;
+  width: 750px;
+  height: 540px;
+  background-color: rgba(255, 255, 255, 0.466);
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.767);
+  animation-delay: 0.6s;
+}
+
+.price {
+  margin-left: 1270px;
+  position: absolute;
+  top: 187px;
+  font-size: 70px;
+  user-select: none;
+  border: 1px solid black;
+  padding: 12px;
+  padding-left: 17px;
+  padding-right: 17px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.404);
+  z-index: 2;
+}
+
+.percent {
+  color: rgb(216, 0, 0);
+  font-weight: normal;
+  font-size: 50px;
+  z-index: 2;
+}
+
+.original {
+  margin-left: 1506px;
+  position: absolute;
+  top: 345px;
+  font-size: 20px;
+  font-weight: normal;
+  user-select: none;
+  z-index: 2;
+}
+
+.cart {
+  position: absolute;
+  top: 540px;
+  margin-left: 1410px;
+  width: 300px;
+  height: 60px;
+  border-radius: 30px;
+  background-color: rgb(47, 255, 109);
+  font-size: 20px;
+  border: 2px solid rgb(23, 122, 53);
+  transition: all;
+  transition-duration: 0.2s;
+  z-index: 2;
+}
+
+.buy {
+  background-color: rgb(47, 255, 109);
+  border: 2px solid rgb(23, 122, 53);
+  font-size: 20px;
+  position: absolute;
+  border-radius: 30px;
+  top: 633px;
+  height: 60px;
+  width: 300px;
+  margin-left: 1410px;
+  transition: all;
+  transition-duration: 0.2s;
+  z-index: 2;
+}
+
+.cart:hover,
+.buy:hover {
+  background-color: black;
+  border: 2px solid rgb(47, 255, 109);
+  color: rgb(47, 255, 109);
+}
+
+.size {
+  margin-left: 1291px;
+  position: absolute;
+  top: 405px;
+  font-size: 40px;
+  user-select: none;
+  z-index: 2;
+}
+
+.price_pura {
+  animation-delay: 1.2s;
+}
+
+.option {
+  margin-left: 1470px;
+  position: absolute;
+  top: 433px;
+  width: 240px;
+  height: 50px;
+  padding: 10px;
+  border-radius: 20px;
+  font-size: 20px;
+  user-select: none;
+  z-index: 2;
+}
+
+.price_tag {
+  background: rgb(0, 255, 200);
+  background: linear-gradient(0deg, rgba(0, 255, 200, 0.5) 0%, rgba(255, 255, 255, 0.6979166666666667) 20%, rgba(255, 255, 255, 0.7) 70%, rgba(0, 255, 200, 0.5) 100%);
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px rgb(0, 0, 0);
+  position: absolute;
+  width: 520px;
+  height: 110%;
+  top: -20px;
+  left: 1300px;
+  border-radius: 20px;
+  animation-delay: 0.3s;
+  z-index: 1;
+}
+
+/* Add a class for the fade-in animation */
+.fade-in {
+  opacity: 0;
+  /* Set initial opacity to 0 */
+  animation-name: fade;
+  animation-duration: 1s;
+  /* Animation duration */
+  animation-fill-mode: forwards;
+  /* Keeps the final state after animation ends */
+}
+
+/* Define the fade-in animation */
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+    z-index: 1;
+  }
+}

@@ -1,0 +1,12 @@
+html {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+
+.image{
+    position: absolute;
+    height: 900px;
+    width: auto;
+    left: 650px;
+    top: 50px;
+}

@@ -1,0 +1,130 @@
+html{
+    padding: 0px;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(34,34,34,1) 100%);
+}
+body{
+    overflow: hidden;
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.navbar{
+    position: absolute;
+    right: 0px;
+    width: 330px;
+    top: 5px;
+    user-select: none;
+    
+  }
+  .navbar ul{
+    overflow: auto;
+    padding: 10px 40px; 
+    
+  }
+  .navbar li{
+    float: left;
+    list-style: none;
+    padding: 5px;
+  }
+  
+  .navbar li a{
+    padding: 1px;
+    text-align: right;
+  }
+  
+
+.login_bg{
+    margin: 50px;
+    background-color: black;
+    border-radius: 20px;
+    width: 600px;
+    margin-top: 65px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 700px;
+}
+
+.login_title{
+    position: static;
+    padding-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 50px;
+
+}
+
+hr{
+    border: 1px solid rgb(202, 201, 201);
+    opacity: 0.2;
+    width: 450px;
+}
+
+.login_ess{
+    font-size: 17px;
+    position: static;
+    margin-top: 100px;
+    padding-left: 140px;
+    padding-right: auto;
+}
+
+.email_box, .password_box{
+    padding: 10px;
+    width: 300px;
+    margin-top: 7px;
+    border: 1px solid rgba(255, 255, 255, 0.555);
+    background-color: rgba(255, 255, 255, 0.151);
+    border-radius: 3px;
+    color: white;
+}
+
+.email_box:hover, .password_box:hover{
+    border: 1px solid rgb(255, 255, 255);
+
+}
+
+.submit_box{
+    height: 50px;
+    width: 320px;
+    border-radius: 25px;
+    font-size: 15px;
+    background-color: rgb(21, 238, 111);
+    font-weight: bold;
+    transition: all;
+    transition-duration: 0.5s;
+}
+
+.logo_login{
+    position: static;
+    background-color: black;
+    height: 100px;
+    margin-top: 0px;
+}
+.submit_box:hover{
+    transform: scale(1.1);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.register_link{
+    color: rgb(21, 238, 111);
+}
+
+.register_link:hover{
+    text-decoration: underline;
+}
+
+.register_here_text{
+    text-align: center;
+    margin-left: 22px;
+}
+

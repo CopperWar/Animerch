@@ -1,0 +1,108 @@
+html {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: white;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-image: url("images/4K-Anime-Wallpaper-Desktop-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+
+.black-rectangle {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.74);
+  z-index: -1;
+}
+.logo {
+
+  position: static;
+  top: 5px;
+  left: 25px;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+.authenticator {
+  position: absolute;
+  top: 13px;
+  right: 25px;
+  font-size: 8px;
+
+}
+
+.navbar {
+  position: absolute;
+  right: 0px;
+  width: 330px;
+  top: 5px;
+  user-select: none;
+
+}
+
+
+.navbar ul {
+  overflow: auto;
+  padding: 10px 40px;
+
+}
+
+.navbar li {
+  float: left;
+  list-style: none;
+  padding: 5px;
+}
+
+.navbar li a {
+  padding: 1px;
+  text-align: right;
+}
+
+.image {
+  user-select: none;
+  border-radius: 10px;
+  background-color: white;
+}
+
+#image-track>.image {
+  width: 40vmin;
+  height: 56vmin;
+  object-fit: cover;
+  object-position: 100% 50%;
+}
+
+#image-track {
+  display: flex;
+  gap: 4vmin;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(0%, -50%);
+  user-select: none;
+}
+
+
+.clickable-link {
+  text-decoration: none;
+}
+
+
+.tshirt_text {
+  position: fixed;
+  top: 100px;
+  left: -620px;
+  font-size: 40px;
+}

@@ -1,0 +1,51 @@
+body {
+  overflow: hidden;
+  color: rgb(0, 0, 0);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding: 0px;
+  margin: 0px;
+}
+
+.logo_login {
+    position: static;
+    height: 100px;
+    margin-top: 50px;
+    text-align: left;
+  }
+
+  .sucess_ess{
+    margin-top: 140px;
+    position: static;
+    background-color: rgb(247, 247, 247);
+    width: 400px;
+    padding: 40px;
+    border-radius: 20px;
+    text-align: center;
+    margin-left: 750px;
+    height: 600px;
+  
+  }
+
+  .sucess_text{
+    font-weight: bold;
+    font-size: 35px;
+  }
+
+  .login_button {
+    height: 50px;
+    width: 170px;
+    margin-left: -10px;
+    margin-top: 20px;
+    border-radius: 25px;
+    border: 1px solid rgb(21, 238, 111);
+    font-size: 15px;
+    background-color: rgb(21, 238, 111);
+    font-weight: bold;
+    transition: all;
+    transition-duration: 0.2s;
+  }
+  
+  .login_button:hover {
+    transform: scale(1.1);
+  }
+  

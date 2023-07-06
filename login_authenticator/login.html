@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+    <h1 class="logo_login">
+        logo
+    </h1>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="/sem_5_project/index.html"> Home </a></li>
+                <li><a href="/sem_5_project/index.html"> About </a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="login_bg">
+
+
+        <h2 class="login_title">Log in</h2>
+
+        <hr>
+        <form action="check.php" method="post">
+            <div class="login_ess">
+                <label for="email">Email/Phone:</label><br>
+                <input type="email" id="email" placeholder="abc@gmail.com / 111 111 1111" required class="email_box" name="email"><br><br>
+
+                <label for="password">Password:</label><br>
+                <input type="password" id="password" minlength="6" maxlength="15" required class="password_box" name="password"><br><br>
+
+
+                <input type="checkbox" id="Remember">
+                <label for="Remember">Remember me</label><br><br><br>
+
+
+                <input type="submit" class="submit_box" value="Log in"><br><br>
+
+                <label class="register_here_text">Don't have an account? <a href="register.html" class="register_link">Register here</a></label>
+            </div>
+
+            
+
+        </form>
+    </div>
+</body>
+
+</html>

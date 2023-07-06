@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Register</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+
+<body>
+    <h1 class="logo_login">
+        logo
+    </h1>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="/sem_5_project/index.html"> Home </a></li>
+                <li><a href="/sem_5_project/index.html"> About </a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="form">
+        <form action="connect.php" method="post">
+            <h1 class="register_title">Register for free</h1>
+            <br>
+            <hr class="line">
+            <br>
+            <div class="inside_text">
+
+                <label for="firstname">First name:</label><br>
+                <input type="text" id="firstname" required class="first_box" name="firstname"><br><br>
+
+                <label for="lastname">Last name:</label><br>
+                <input type="text" id="lastname" required class="last_box" name="lastname"><br><br>
+
+                <label>Gender:</label><br>
+                <div class="custom-radio">
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label>
+                </div>
+
+                <div class="custom-radio">
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label>
+                </div>
+
+                <div class="custom-radio">
+                    <input type="radio" id="others" name="gender" value="others">
+                    <label for="others">Other</label>
+                </div>
+                <br>
+                <br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" placeholder="for eg. abc@gmail.com" required class="email_box"
+                    name="email"><br><br>
+
+                <label for="password">Password:</label><br>
+                <input type="password" id="password" minlength="6" maxlength="15" required class="password_box"
+                    name="password"><br><br>
+
+                <label for="Phone no.">Contact number:</label><br>
+                <input type="tel" id="Phone no." pattern="[0-9]{10}" required class="phone_box" name="contact"><br><br>
+
+                <input type="submit" class="submit_box" value="Register"><br><br>
+                <label class="register_here_text">Alredy have an account?<a href="login.html" class="register_link"> Log
+                        in</a></label>
+            </div>
+
+
+        </form>
+    </div>
+</body>
+
+</html>
